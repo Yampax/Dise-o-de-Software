@@ -4,7 +4,7 @@ Repositorio destinado a almacenar los ejercicios y prácticas de Diseño de Sofw
 
 ## Unidad 2:
 
-### [Ejercitación 2.1]
+### [Ejercitación 2.1](./Ejercitación%202.1)
 
 ### [Ejercitación 2.2]
 
