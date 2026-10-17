@@ -80,3 +80,6 @@ Después, se vuelve a solicitar una instancia y se almacena en la variable confi
 Finalmente, se utiliza la expresión config1 == config2 para comprobar si ambas variables hacen referencia al mismo objeto. Si el resultado es true, significa que las dos variables apuntan a la misma instancia.
 
 Esta prueba permite comprobar el funcionamiento del patrón Singleton y verificar que las llamadas al método getInstance() devuelven el mismo objeto.
+
+<img width="349" height="144" alt="image" src="https://github.com/user-attachments/assets/bff63a6c-fc2c-4f1b-8396-7e06e9f50160" />
+
