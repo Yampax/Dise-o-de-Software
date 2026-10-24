@@ -1,18 +1,21 @@
 public class Controlador {
-    private static class instanciaC {
-        private static final Controlador Instancia = new Controlador();
-    }
+
+    private static Controlador instancia = null;
+
     private boolean disponible;
     private String estado;
 
-    private Controlador(){
+    private Controlador() {
         disponible = true;
-        estado = "en espera";
-        System.out.println("Controlador de hardware activado");
+        estado = "En espera";
+        System.out.println("Controlador inicializado.");
     }
 
-    public static Controlador getInstance(){
-        return instanciaC.Instancia;
+    public static synchronized Controlador getInstancia() {
+        if (instancia == null) {
+            instancia = new Controlador();
+        }
+        return instancia;
     }
 
     public synchronized boolean estaDisponible() {
@@ -25,45 +28,34 @@ public class Controlador {
 
     public synchronized void enviarComando(String comando) {
         if (comando == null || comando.isBlank()) {
-            System.out.println("Error: el comando no es válido.");
+            System.out.println("El comando no es válido.");
             return;
         }
 
         if (!disponible) {
-            System.out.println(
-                    "Dispositivo ocupado. No se puede ejecutar el comando."
-            );
+            System.out.println("El dispositivo está ocupado.");
             return;
         }
 
         disponible = false;
         estado = "Ejecutando comando: " + comando;
 
-        System.out.println("Enviando comando al dispositivo: " + comando);
+        System.out.println("Enviando comando: " + comando);
 
-        // Simulación de la ejecución del comando.
         estado = "En espera";
         disponible = true;
 
-        System.out.println("Comando finalizado correctamente.");
+        System.out.println("Comando finalizado.");
     }
 
     public static void main(String[] args) {
         Controlador controlador1 =
-                Controlador.getInstance();
-
-        System.out.println(
-                "¿Está disponible? " + controlador1.estaDisponible()
-        );
+                Controlador.getInstancia();
 
         controlador1.enviarComando("AVANZAR");
 
-        System.out.println(
-                "Estado actual: " + controlador1.obtenerEstado()
-        );
-
         Controlador controlador2 =
-                Controlador.getInstance();
+                Controlador.getInstancia();
 
         System.out.println(
                 "¿Es la misma instancia? "
