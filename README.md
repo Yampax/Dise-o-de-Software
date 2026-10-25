@@ -9,3 +9,7 @@ Repositorio destinado a almacenar los ejercicios y prácticas de Diseño de Sofw
 ### [Ejercitación 2.2](./Ejercitacion%202.2)
 
 ## Unidad 3:
+
+### [Ejercitación 3.1](./Ejercitacion%203.1)
+
+### [Ejercitación 3.2](./Ejercitacion%203.2)
