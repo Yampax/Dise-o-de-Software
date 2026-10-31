@@ -1,0 +1,3 @@
+Se utiliza el patrón Singleton para garantizar que depósito, consultorios y laboratorio compartan un único registro de movimientos. La clase Movimiento representa cada operación y utiliza atributos final para impedir modificaciones posteriores a su creación. El registro valida que las cantidades sean positivas y que las salidas no superen el saldo disponible. Además, permite consultar el historial completo, filtrar movimientos por insumo o sector y calcular las existencias recorriendo los movimientos registrados. El saldo inicial se incorpora mediante una entrada, evitando manejar existencias por fuera del historial.
+
+<img width="871" height="492" alt="image" src="https://github.com/user-attachments/assets/5750034c-65ab-4e97-98bf-83628baa48dc" />
