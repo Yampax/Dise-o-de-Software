@@ -1,0 +1,4 @@
+Se utiliza el patrón Singleton para garantizar que las tres terminales compartan un único contador de números de atención. El constructor privado impide crear instancias adicionales y el método getInstancia() controla el acceso al objeto compartido. Cada terminal solicita números mediante generarNumero(), sin poder modificar directamente el contador. Además, el generador registra qué terminal realizó cada solicitud, permite consultar el último número emitido y proporciona el historial de atenciones. De esta manera, se evita la generación de números repetidos y se mantiene un registro centralizado.
+
+<img width="282" height="485" alt="image" src="https://github.com/user-attachments/assets/aac3ce72-a7dd-4d69-a359-95994c588f94" />
+<img width="276" height="466" alt="image" src="https://github.com/user-attachments/assets/3f888087-42b3-44bd-9f9d-5cef4ecf690f" />
