@@ -1,6 +1,6 @@
  📑 Índice
 
-## Ejercitación 2.1
+## Ejercitación 2.2
 
 -[Ejercicio 1: Configuración General de una Biblioteca](./2.2-Ejercicio-01/)
 <br>
