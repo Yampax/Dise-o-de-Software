@@ -1,4 +1,4 @@
- 📑 Índice
+# 📑 Índice
 
 ## Ejercitación 3.1
 
