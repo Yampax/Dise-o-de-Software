@@ -1,4 +1,4 @@
- 📑 Índice
+# 📑 Índice
 
 ## Ejercitación 2.2
 
