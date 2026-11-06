@@ -1,4 +1,4 @@
-Decidí implementar el patrón Factory Method para poder generar reportes financieros en diferentes formatos sin acoplar el código principal a las clases encargadas de realizar cada exportación.
+Implemente el patrón Factory Method para poder generar reportes financieros en diferentes formatos sin acoplar el código principal a las clases encargadas de realizar cada exportación.
 
 Para ello, creé una interfaz llamada "ExportadorReporte", que establece una operación común para exportar los informes. Luego, desarrollé las clases "ExportadorPDF" y "ExportadorCSV", que implementan la generación de archivos según las características de cada formato.
 
@@ -7,3 +7,5 @@ También incorporé una clase abstracta "CreadorExportador", encargada de declar
 Finalmente, desarrollé las clases creadoras concretas "CreadorPDF" y "CreadorCSV", que se encargan de proporcionar el exportador correspondiente.
 
 De esta manera, pude separar la creación de los exportadores de la lógica principal del sistema, facilitando la incorporación de nuevos formatos y el mantenimiento del código.
+
+<img width="433" height="306" alt="image" src="https://github.com/user-attachments/assets/d67b890e-723b-4d2e-ad1c-e5c290136b3a" />
