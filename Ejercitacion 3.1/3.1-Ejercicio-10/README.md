@@ -8,3 +8,4 @@ Además, incorporé servicios independientes para la autorización y la firma di
 
 De esta manera, pude separar las responsabilidades de validación, creación y seguridad, logrando una arquitectura más desacoplada, extensible y preparada para trabajar en entornos concurrentes.
 
+<img width="1235" height="236" alt="image" src="https://github.com/user-attachments/assets/29013ed5-48ff-41fd-be3c-1b6bb373ca20" />
