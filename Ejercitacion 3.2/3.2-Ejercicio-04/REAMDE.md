@@ -7,3 +7,5 @@ También creé una clase abstracta llamada `CreadorComprobante`, encargada de de
 Finalmente, utilicé la clase `Main` para solicitar la generación de ambos comprobantes mediante sus creadores, sin instanciar directamente los generadores concretos.
 
 De esta manera, pude separar la creación de los generadores de la lógica de formato de los documentos, facilitando la incorporación de nuevos formatos de comprobantes y el mantenimiento del sistema.
+
+<img width="778" height="192" alt="image" src="https://github.com/user-attachments/assets/125e8433-879e-4141-9321-74b532e8a2cb" />
