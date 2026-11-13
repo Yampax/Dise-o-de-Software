@@ -6,7 +6,8 @@ public class Reproductor implements Sujeto {
     private String cancionActual;
     private EstadoReproduccion estado;
 
-    private final List<Observador> observadores = new CopyOnWriteArrayList<>();
+    private final CopyOnWriteArrayList<Observador> observadores =
+        new CopyOnWriteArrayList<>();
 
     public Reproductor() {
         this.cancionActual = "Sin canción";
