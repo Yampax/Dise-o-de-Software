@@ -5,8 +5,8 @@ public class SensorHumo implements Sujeto {
 
     private String ubicacion;
 
-    private final List<Observador> observadores =
-            new CopyOnWriteArrayList<>();
+    private final CopyOnWriteArrayList<Observador> observadores =
+        new CopyOnWriteArrayList<>();
 
     public SensorHumo(String ubicacion) {
         this.ubicacion = ubicacion;
