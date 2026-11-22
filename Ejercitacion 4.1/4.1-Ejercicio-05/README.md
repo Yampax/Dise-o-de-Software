@@ -8,3 +8,6 @@ Las clases CentralAlarmas, SistemaRociadores y ServicioConserjeria implementan l
 
 Además, el sistema permite que un mismo dispositivo esté suscrito a varios sensores, por lo que puede recibir alertas de diferentes ubicaciones. También es posible agregar o eliminar observadores durante la ejecución sin modificar el funcionamiento interno de los sensores.
 
+<img width="526" height="493" alt="image" src="https://github.com/user-attachments/assets/a0e527a1-9d28-4e0a-bb2e-4e8dc732b24b" />
+
+<img width="500" height="385" alt="image" src="https://github.com/user-attachments/assets/f3d0ca78-a47a-49f0-88bd-111963f91481" />
