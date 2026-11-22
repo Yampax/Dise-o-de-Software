@@ -10,3 +10,4 @@ Las clases DepartamentoCompras y DepartamentoMarketing implementan la interfaz O
 
 Además, el sistema permite registrar y eliminar observadores durante la ejecución, por lo que los departamentos pueden dejar de recibir notificaciones sin modificar la clase principal del producto.
 
+<img width="512" height="509" alt="image" src="https://github.com/user-attachments/assets/b9a3fde0-f667-4d6a-a5d2-b0104dbb534d" />
