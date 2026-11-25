@@ -9,3 +9,7 @@ La lógica principal se encuentra en el método "actualizarPrecio()" de la clase
 Además, los datos del producto se mantienen privados y se modifican mediante métodos controlados, evitando que otras clases puedan cambiar directamente su precio. También se permite suscribir y desuscribir canales de notificación durante la ejecución.
 
 De esta manera, la clase "Producto" no depende directamente de los canales de comunicación y puede notificar a diferentes componentes sin conocer cómo procesan la información. Esto facilita incorporar nuevos medios de notificación sin modificar la lógica principal.
+
+<img width="426" height="453" alt="image" src="https://github.com/user-attachments/assets/88caff51-71c7-4abe-9661-0ef6ff26b378" />
+<img width="428" height="490" alt="image" src="https://github.com/user-attachments/assets/8d727da0-c22b-4eba-b6ad-d579978676a1" />
+<img width="424" height="208" alt="image" src="https://github.com/user-attachments/assets/a8aad277-67db-44df-864f-61e9782e1f25" />
