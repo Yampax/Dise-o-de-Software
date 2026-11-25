@@ -10,3 +10,4 @@ Además, se permite agregar o quitar observadores durante la ejecución del prog
 
 De esta manera, se evita que la clase encargada de administrar los puntos dependa directamente de la pantalla o del sistema de récords. Esto permite mantener los componentes desacoplados y facilita incorporar nuevos observadores en el futuro.
 
+<img width="400" height="376" alt="image" src="https://github.com/user-attachments/assets/e7af0628-f937-4e57-b2da-226804057fe6" />
