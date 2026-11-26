@@ -11,3 +11,11 @@ Cuando se ejecuta "actualizarCotizacion()", el mercado obtiene el precio anterio
 Para evitar problemas al modificar la lista de suscriptores durante las notificaciones, se utiliza "CopyOnWriteArrayList", que permite recorrer la colección de manera segura mientras se realizan altas o bajas de observadores.
 
 De esta manera, la lógica del mercado no depende directamente de los paneles de visualización y permite agregar nuevos componentes interesados en las cotizaciones sin modificar la clase principal, manteniendo un sistema desacoplado y extensible.
+
+<img width="335" height="521" alt="image" src="https://github.com/user-attachments/assets/d0e9d64d-979c-4a2a-84fb-e9fda5410b8d" />
+<img width="311" height="498" alt="image" src="https://github.com/user-attachments/assets/3ff3ad82-d1ba-41a3-8f70-e97d88e00a83" />
+<img width="484" height="533" alt="image" src="https://github.com/user-attachments/assets/ed25a688-c8e1-4564-9aaf-bc1b70782e9a" />
+<img width="297" height="297" alt="image" src="https://github.com/user-attachments/assets/c3c0f36f-a175-4efb-bfc0-58ce21b01a6f" />
+
+
+
