@@ -9,6 +9,8 @@ public class Main {
         AlertaMemoria alertaMemoria = new AlertaMemoria();
         AlertaDisco alertaDisco = new AlertaDisco();
         ServicioMonitoreo monitoreo = new ServicioMonitoreo();
+        // Defectuoso
+        ObservadorDefectuoso defectuoso = new ObservadorDefectuoso();
 
         // Suscripciones por categoría
         bus.suscribir("CPU", alertaCPU);
@@ -19,6 +21,9 @@ public class Main {
         bus.suscribir("CPU", monitoreo);
         bus.suscribir("MEMORIA", monitoreo);
         bus.suscribir("DISCO", monitoreo);
+
+        //Defectuoso
+        bus.suscribir("MEMORIA", defectuoso);
 
         // Servidores
         Servidor servidor1 = new Servidor("Servidor-01", bus);
